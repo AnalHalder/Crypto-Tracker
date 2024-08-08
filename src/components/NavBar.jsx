@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { CryptoContext } from "../contexts/CryptoContext";
 
-function Navbar() {
+function NavBar() {
   const { handleSearch, setStartIdx, setEndIdx } = useContext(CryptoContext);
   const [searchTerm, setSearchTerm] = useState("");
   const navigate = useNavigate();
@@ -52,4 +52,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;
