@@ -4,7 +4,6 @@ import Table from "./components/Table";
 import Pagination from "./components/Pagination";
 import CoinDetail from "./components/CoinDetail";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import React from "react";
 
 function App() {
   return (
